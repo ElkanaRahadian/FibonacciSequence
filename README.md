@@ -1,7 +1,7 @@
-# fibSequenceProject
-Example UICollectionViewCell sizing for iPhone or iPad
+# Fibonacci Sequence using UICollectionViewCells
 
-This was a take home project I completed for an app development company.
+Fibonacci Sequence Project using UICollectionViewCells with Auto Layout.
+Self sizing for iPhone or iPad.
 
 <p align="center">
   <img height="500" src="/fibSequenceScreenshot.png">
