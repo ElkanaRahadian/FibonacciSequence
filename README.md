@@ -1,7 +1,7 @@
 # Fibonacci Sequence
 
 ## Overview
-Fibonacci Sequence Project usi UICollectionView Cells with Auto Layout.
+Fibonacci Sequence Project using UICollectionView Cells with Auto Layout.
 
 ## Features
 Self sizing for iPhone or iPad.
