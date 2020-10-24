@@ -1,14 +1,5 @@
-//
-//  FibinacciGenerator.swift
-//  fibSequenceProject
-//
-//  Created by Arin Davoodian on 1/22/20.
-//  Copyright © 2020 Arin Davoodian. All rights reserved.
-//
-
 import Foundation
 
-// fibinacci sequence equation referenced from: https://craftofcoding.wordpress.com/2017/05/30/fibonacci-in-swift/
 func generateFibSequence(numberOfIterations n: Int) -> [Int] {
     var fibArray: [Int] = []
     
