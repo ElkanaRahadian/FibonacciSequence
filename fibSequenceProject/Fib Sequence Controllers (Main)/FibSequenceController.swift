@@ -1,11 +1,3 @@
-//
-//  FibSequenceController.swift
-//  fibSequenceProject
-//
-//  Created by Arin Davoodian on 1/22/20.
-//  Copyright © 2020 Arin Davoodian. All rights reserved.
-//
-
 import UIKit
 
 class FibSequenceController: UIViewController {
@@ -43,15 +35,7 @@ extension FibSequenceController: UICollectionViewDelegate, UICollectionViewDataS
 	
 	func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 		let minCellSpacingiPad: CGFloat = 10
-		let minCellSpacingiPhone: CGFloat = 5
-
-		// determines the height and width of the cell based on minCell spacing, adjustments based on cell-to-cell doubling, and number of cells in width lenght
-		
-		//let iPhoneWidthHeight = (collectionView.frame.size.width / 7) - (minCellSpacingiPhone * 7 - (minCellSpacingiPhone / 0.18))
-		//let iPhoneWidthHeight = (collectionView.frame.size.width / 6) - (minCellSpacingiPhone * 6 - (minCellSpacingiPhone / 0.21))
-		//let iPhoneWidthHeight = (collectionView.frame.size.width / 5) - (minCellSpacingiPhone * 5 - (minCellSpacingiPhone / 0.27))
-		//let iPhoneWidthHeight = (collectionView.frame.size.width / 4) - (minCellSpacingiPhone * 4 - (minCellSpacingiPhone / 0.4))
-		
+		let minCellSpacingiPhone: CGFloat = 5		
 		let iPadWidthHeight = (collectionView.frame.size.width / 3) - (minCellSpacingiPad * 3 - (minCellSpacingiPad * 1.5))
 		let iPhoneWidthHeight = (collectionView.frame.size.width / 2) - (minCellSpacingiPhone * 2 - (minCellSpacingiPhone / 2))
 		
@@ -90,7 +74,7 @@ extension FibSequenceController: UICollectionViewDelegate, UICollectionViewDataS
 		}
 		
 	}
-
+	
 }
 
 
