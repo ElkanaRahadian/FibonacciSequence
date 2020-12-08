@@ -1,4 +1,4 @@
-import Foundatio
+import Foundation
 
 func generateFibSequence(numberOfIterations n: Int) -> [Int] {
     var fibArray: [Int] = []
