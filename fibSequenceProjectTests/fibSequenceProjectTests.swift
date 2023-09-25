@@ -1,4 +1,4 @@
-import XCTest
+import XCTes
 @testable import fibSequenceProject
 
 #warning("Testing not used since no UITests required.")
