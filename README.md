@@ -1,4 +1,4 @@
-# Fibonacci Sequence
+# Fibonacci Sequenc
 
 ## Overview
 Fibonacci Sequence Project using UICollectionView Cells with Auto Layout.
